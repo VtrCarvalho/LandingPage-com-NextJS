@@ -1,0 +1,21 @@
+.botao {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #0DC74F; 
+    color: #fff;
+    font-size: 16px;
+}
+
+.secundary {
+    background-color: #ffffff;
+    color: #380158;
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+}
