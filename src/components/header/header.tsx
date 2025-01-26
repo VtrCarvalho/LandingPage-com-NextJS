@@ -30,7 +30,7 @@ const Header = () => {
             <Image className={styles.logotipo} src={Logo} alt="logo"/>
             <div className={styles.menu}>
                 <a href="http://localhost:3000/">Home</a>
-                <a href="#about-section" onClick={(e) => scrollInto(e, 'about-section')}>O que fazemos</a>
+                <a href="#about-section" onClick={(e) => scrollInto(e, 'welcome-section')}>O que fazemos</a>
                 <a href="#case-section" onClick={(e) => scrollInto(e, 'about-section')}>Cases</a>
             </div>
             <Buttons title="Fale conosco" kind="primary" onClick={handleButtonClick} />
