@@ -29,9 +29,9 @@ const Header = () => {
         <div className={styles.container}>
             <Image className={styles.logotipo} src={Logo} alt="logo"/>
             <div className={styles.menu}>
-                <a href="http://localhost:3000/">Home</a>
-                <a href="#about-section" onClick={(e) => scrollInto(e, 'welcome-section')}>O que fazemos</a>
-                <a href="#case-section" onClick={(e) => scrollInto(e, 'about-section')}>Cases</a>
+                <Link href="http://localhost:3000/">Home</Link>
+                <Link href="#about-section" onClick={(e) => scrollInto(e, 'welcome-section')}>Quem somos</Link>
+                <Link href="#case-section" onClick={(e) => scrollInto(e, 'about-section')}>Cases</Link>
             </div>
             <Buttons title="Fale conosco" kind="primary" onClick={handleButtonClick} />
         </div>

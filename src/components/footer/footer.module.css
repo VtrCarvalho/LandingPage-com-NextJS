@@ -1,0 +1,98 @@
+.container {
+    background-color: #26003B;
+    width: 100vw;
+    padding: 50px 130px 30px 130px;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: end;
+    justify-content: space-between;
+
+    a {
+        font-size: 14px;
+    }
+
+}
+
+.agencia {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 0 0 calc(25% - 10px);
+    margin-bottom: 25px;
+    box-sizing: border-box;
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 0 0 calc(25% - 10px);
+    box-sizing: border-box;
+    h3 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #0FCE33;
+        margin-bottom: 20px;
+    }
+
+    a:nth-child(1) {
+        margin-bottom: 20px;
+    }
+
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 0 0 calc(25% - 10px);
+    box-sizing: border-box;
+
+    h3 {
+        font-size: 18px;
+        font-weight: 500;
+        color: #0FCE33;
+        margin-bottom: 20px;
+    }
+
+    a:nth-child(1) {
+        margin-bottom: 20px;
+    }  
+}
+
+
+.social {
+    flex: 0 0 calc(25% - 10px);
+    box-sizing: border-box;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.icons {
+    width: 30px;
+    height: 20px;
+    text-align: right;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.direitosReservados {
+    flex-basis: 100%;
+    margin-top: 80px;
+    text-align: center;
+    color: #969696;
+    letter-spacing: 0.6px;
+    font-size: 12px;
+}
